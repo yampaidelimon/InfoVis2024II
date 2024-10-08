@@ -20,6 +20,29 @@
     fill: black;
 }
 
+.chain-pochita{
+    fill: grey;
+
+}
+.chain-pochita-exterior{
+    fill: rgb(105,105,105)
+}
+.colmillos-pochita{
+    fill:white;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.boca-pochita{
+    fill:red;
+    stroke:black;
+    stroke-width: 2px;
+}
+
+.color-negro-pochita{
+    fill: black;
+}
+
 /* AGREGAR MAS ESTILOS*/
 
 /* Dark mode */
@@ -42,4 +65,34 @@
     fill: white;
 }
 
+
+
+
+
+
 /* AGREGAR MAS ESTILOS*/
+
+/*trate de colocar los colores opuestos que encontre en interne*/
+
+.dark-mode .chain-pochita{
+    fill: brown;
+
+}
+.dark-mode .chain-pochita-exterior{
+    fill: rgb(150,150,150)
+}
+
+.dark-mode .colmillos-pochita{
+    fill:black;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.dark-mode .boca-pochita{
+    fill:green;
+    stroke:white;
+    stroke-width: 2px;
+}
+.dark-mode .color-negro-pochita{
+    fill: white;
+}
